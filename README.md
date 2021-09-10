@@ -35,6 +35,9 @@ The data is pre-processed and augmented for training. We tried to solve this pro
 <p align="center">
 <img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/Original%20RGB%20rescaled.png"><img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/original%20NIR%20rescaled.png"><img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/contrast%20adjusted.png">
 </p>
+<p align="center">
+RGB Image - Ground Truth - Our Result
+</p>
 
 ## Generation of NIR images from RGB (using IITJ dataset)
 
