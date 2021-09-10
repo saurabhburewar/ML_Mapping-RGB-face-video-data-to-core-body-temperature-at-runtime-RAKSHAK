@@ -32,7 +32,7 @@ We experimented with different models with results in the accuracy range of 20 %
 
 The data is pre-processed and augmented for training. We tried to solve this problem using different approaches with multiple models in each approach. Finally, the best result was obtained and after some post-processing we get the below result -
 
-![Original](https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/Original%20RGB%20rescaled.png)
+![Original](https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/Original%20RGB%20rescaled.png)![GD](https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/original%20NIR%20rescaled.png)
 
 ## Generation of NIR images from RGB (using IITJ dataset)
 
