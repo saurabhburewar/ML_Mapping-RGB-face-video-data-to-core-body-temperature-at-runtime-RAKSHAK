@@ -43,3 +43,6 @@ RGB Image - Ground Truth - Our Result
 
 Similar experiments with the IITJ datasets gave us the below results -
 
+<p align="center">
+<img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/0.jpg"><img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/92_0_256x7_100.png">
+</p>
