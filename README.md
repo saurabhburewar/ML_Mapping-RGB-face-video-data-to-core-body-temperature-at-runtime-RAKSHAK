@@ -12,7 +12,7 @@ Therfore, this project is divided into 2 parts -
 
 ### Dataset I
 
-The first data was collected by taking RGB images of the forehead regions of the participants and taking their core body temperature using an IR thermometer/thermal gun in a room with artificial lighting. The images correspond to the temperatures 96 °F, 97 °F, 98 °F, 99 °F, and 100 °F. The temperature was measured for varying times of the day after various activities which were also included. However, due to the COVID restrictions, the data collection was limited to a few participants causing the data to be skewed towards the normal body temperature of about 97 / 98 °F which caused problems in training the model with the data.
+The first data was collected by taking RGB images of the forehead regions of the participants and taking their core body temperature using an IR thermometer/thermal gun in a room with artificial lighting. The images correspond to the temperatures 96°F, 97°F, 98°F, 99°F, and 100°F. The temperature was measured for varying times of the day after various activities which were also included. However, due to the COVID restrictions, the data collection was limited to a few participants causing the data to be skewed towards the normal body temperature of about 97 / 98 °F which caused problems in training the model with the data.
 
 ### EPFL Dataset
 
@@ -25,4 +25,15 @@ The data was collected on the IITJ campus, which includes RGB and thermal videos
 ## RGB <-> Temperature mapping (using Dataset I)
 
 To find any relation between the RGB image of a person and the temperature of the person we have used convolutional neural networks. The images have been divided based on their respective body temperature and various convolutional neural networks were experimented with to find any underlying mapping function. The data was resized to 256 x 256 pixels for easy training. Appropriate weights were added to each temperature class in order to adjust for the unequal distribution of data.
+
+We experimented with different models with results in the accuracy range of 20 % to 50 % and losses in the range of 2 to 4.
+
+## Generation of NIR images from RGB (using EPFL dataset)
+
+The data is pre-processed and augmented for training. We tried to solve this problem using different approaches with multiple models in each approach. Finally, the best result was obtained and after some post-processing we get the below result -
+
+
+## Generation of NIR images from RGB (using IITJ dataset)
+
+Similar experiments with the IITJ datasets gave us the below results -
 
