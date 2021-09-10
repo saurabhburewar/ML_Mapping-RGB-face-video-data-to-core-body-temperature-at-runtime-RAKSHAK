@@ -1,8 +1,8 @@
 # Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK
 
 The objective is mapping the following -
-1. RGB image <-> Temperature
-2. NIR image <-> Temperature, but this requires RGB -> NIR conversion
+1. RGB image <-> Body Temperature
+2. NIR image <-> Body Temperature, but this requires RGB -> NIR conversion
 
 Therfore, this project is divided into 2 parts -
 1. To find a relation between the temperature of a human body and the image taken by a camera. This is to be done using both RGB and NIR images of the face of a person
