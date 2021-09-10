@@ -32,7 +32,7 @@ We experimented with different models with results in the accuracy range of 20 %
 
 The data is pre-processed and augmented for training. We tried to solve this problem using different approaches with multiple models in each approach. Finally, the best result was obtained and after some post-processing we get the below result -
 
-<p align="center">
+<p align="center" display="flex">
 <img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/Original%20RGB%20rescaled.png"><img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/original%20NIR%20rescaled.png"><img src="https://github.com/saurabhburewar/Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK/blob/main/Results/contrast%20adjusted.png">
 RGB image - Ground Truth - Our Result
 </p>
